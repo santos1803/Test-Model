@@ -1,0 +1,1552 @@
+/*Nav*/
+
+@media (max-width: 1050px) {
+  .navResponsive {
+    display: flex;
+  }
+
+  .iconss {
+    display: none;
+  }
+}
+
+@media (max-width: 950px) {
+  .navResponsiveAnimate {
+    width: 45%;
+  }
+
+  .iconsFlex {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-size: 1.4vw;
+  }
+
+  .icons {
+    padding: 1.5% 0;
+  }
+}
+
+@media (max-width: 750px) {
+  .navResponsiveAnimate {
+    width: 55%;
+  }
+
+  .iconsFlex {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-size: 1.7vw;
+  }
+
+  .icons {
+    padding: 2% 0;
+  }
+}
+
+@media (max-width: 600px) {
+  .navResponsiveAnimate {
+    width: 65%;
+  }
+
+  .iconsFlex {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-size: 2.3vw;
+  }
+
+  .icons {
+    padding: 2.5% 0;
+  }
+}
+
+@media (max-width: 500px) {
+  .navResponsiveAnimate {
+    width: 75%;
+  }
+
+  .iconsFlex {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-size: 2.7vw;
+  }
+
+  .icons {
+    padding: 2.5% 0;
+  }
+}
+
+@media (max-width: 420px) {
+  .navResponsiveAnimate {
+    width: 80%;
+  }
+
+  .iconsFlex {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-size: 3vw;
+  }
+
+  .icons {
+    padding: 3% 0;
+  }
+}
+
+@media (max-width: 400px) {
+  .navResponsiveAnimate {
+    width: 80%;
+  }
+
+  .iconsFlex {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-size: 3.5vw;
+  }
+
+  .icons {
+    padding: 3% 0;
+  }
+}
+
+/*LOGO*/
+
+@media (max-width: 800px) {
+  .clarifon {
+    object-fit: cover;
+
+    width: 29%;
+  }
+
+  .mc {
+    object-fit: cover;
+    width: 50%;
+  }
+
+  .norton {
+    object-fit: cover;
+    width: 50%;
+  }
+
+  .logo {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 4% 8% 4% 8.6%;
+    gap: 20%;
+  }
+}
+
+@media (max-width: 750px) {
+  .clarifon {
+    object-fit: contain;
+
+    width: 32%;
+  }
+
+  .mc {
+    object-fit: cover;
+    width: 52%;
+  }
+
+  .norton {
+    object-fit: cover;
+    width: 52%;
+  }
+
+  .logo {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 4% 8% 4% 8.6%;
+    gap: 20%;
+  }
+}
+
+@media (max-width: 670px) {
+  .clarifon {
+    object-fit: contain;
+
+    width: 36%;
+  }
+
+  .mc {
+    object-fit: contain;
+    width: 32%;
+  }
+
+  .norton {
+    object-fit: contain;
+    width: 32%;
+  }
+
+  .logo {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 4% 8% 4% 8.6%;
+    gap: 25%;
+  }
+
+  .logosMcNorton {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+  }
+}
+
+@media (max-width: 600px) {
+  .clarifon {
+    object-fit: contain;
+
+    width: 32%;
+  }
+
+  .mc {
+    object-fit: contain;
+    width: 35%;
+  }
+
+  .norton {
+    object-fit: contain;
+    width: 35%;
+  }
+
+  .logo {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 5% 8% 5% 8.6%;
+    gap: 35%;
+  }
+
+  .logosMcNorton {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+  }
+}
+
+
+@media (max-width: 500px) {
+    .clarifon {
+      object-fit: contain;
+  
+      width: 38%;
+    }
+  
+    .mc {
+      object-fit: contain;
+      width: 42%;
+    }
+  
+    .norton {
+      object-fit: contain;
+      width: 42%;
+    }
+  
+    .logo {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      padding: 5% 8% 5% 8.6%;
+      gap: 30%;
+    }
+  
+    .logosMcNorton {
+        width: 60%;
+      display: flex;
+      gap: 23px;
+      align-items: center;
+    }
+  }
+
+  @media (max-width: 450px) {
+    .clarifon {
+      object-fit: contain;
+  
+      width: 40%;
+    }
+  
+    .mc {
+      object-fit: contain;
+      width: 45%;
+    }
+  
+    .norton {
+      object-fit: contain;
+      width: 45%;
+    }
+  
+    .logo {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      padding: 5% 8% 5% 5%;
+      gap: 25%;
+    }
+  
+    .logosMcNorton {
+        width: 60%;
+      display: flex;
+      gap: 23px;
+      align-items: center;
+    }
+  }
+
+  @media (max-width: 400px) {
+    .clarifon {
+      object-fit: contain;
+  
+      width: 42%;
+    }
+  
+    .mc {
+      object-fit: contain;
+      width: 45%;
+    }
+  
+    .norton {
+      object-fit: contain;
+      width: 45%;
+    }
+  
+    .logo {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      padding: 5% 8% 5% 5%;
+      gap: 25%;
+    }
+  
+    .logosMcNorton {
+        width: 60%;
+      display: flex;
+      gap: 23px;
+      align-items: center;
+    }
+  }
+
+
+  /*TITLE*/
+
+  @media (max-width:700px) {
+
+    .firstTxt {
+        text-align: center;
+        margin-top: 5%;
+        padding: 0 2%;
+    }
+    
+  }
+
+    @media (max-width:500px) {
+        .firstTxt h1 {
+            font-size: 10vw;
+            font-weight:400;
+            text-transform: capitalize;
+        }
+        .firstTxt p {
+            font-size: 5vw;
+            font-weight:200;
+            text-transform: capitalize;
+        }
+    
+  }
+
+  
+/*Steps*/
+
+@media (max-width:950px) {
+    .steps {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        padding: 3.5% 8% 3.5% 8.9%;
+        
+    }
+    
+    .stepsIconsTxt {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+    
+    
+    
+    
+    .stepsIconsTxt p {
+       font-size: 1.2vw;
+    
+       font-weight: 500;
+    }
+    
+}
+
+@media (max-width:850px) {
+    .steps {
+        width: 100%;
+        display: flex;
+        
+        padding: 3.5% 8% 3.5% 8.9%;
+        
+    }
+    
+    .stepsIconsTxt {
+        width: 22%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 5px;
+    }
+    
+    .stepsIconsTxt p {
+       font-size: 2vw;
+    
+       font-weight: 500;
+    }
+
+    .desapareceTxt {
+        display: none;
+    }
+
+    .stepsIconsTxt img {
+        object-fit: contain;
+        width: 20%;
+    }
+    
+    
+}
+
+@media (max-width:700px) {
+    .steps {
+        width: 100%;
+        display: flex;
+        
+        padding: 3.5% 8% 3.5% 8.9%;
+        margin-top: 20px;
+        
+    }
+    
+    .stepsIconsTxt {
+        width: 22%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 5px;
+    }
+    
+    .stepsIconsTxt p {
+       font-size: 2.5vw;
+    
+       font-weight: 500;
+    }
+
+    .desapareceTxt {
+        display: none;
+    }
+
+    .stepsIconsTxt img {
+        object-fit: contain;
+        width: 25%;
+    }
+    
+    
+}
+
+@media (max-width:550px) {
+    .steps {
+        width: 100%;
+        display: flex;
+        
+        padding: 3.5% 3% 3.5% 3%;
+        margin-top: 20px;
+        
+    }
+    
+    .stepsIconsTxt {
+        width: 22%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 5px;
+    }
+    
+    .stepsIconsTxt p {
+       font-size: 3vw;
+    
+       font-weight: 500;
+    }
+
+    .desapareceTxt {
+        display: none;
+    }
+
+    .stepsIconsTxt img {
+        object-fit: contain;
+        width: 28%;
+    }
+    
+    
+}
+
+@media (max-width:460px) {
+    .steps {
+        width: 100%;
+        display: flex;
+        
+        padding: 3.5% 3% 3.5% 3%;
+        margin-top: 20px;
+        
+    }
+    
+    .stepsIconsTxt {
+        width: 22%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 5px;
+    }
+    
+    .stepsIconsTxt p {
+       font-size: 3.1vw;
+    
+       font-weight: 500;
+    }
+
+    .desapareceTxt {
+        display: none;
+    }
+
+    .stepsIconsTxt img {
+        object-fit: contain;
+        width: 30%;
+    }
+    
+    
+}
+
+/*MAIN*/
+
+@media (max-width:1360px) {
+    .imgSmall {
+        
+        gap: 10%;
+    
+    }
+    .mainContentImg {
+       
+        gap: 52px;
+    }
+
+    .coment {
+        gap: 40px;
+    }
+
+    .optionPay p {
+        font-size: 0.7vw;
+        font-weight: 400;
+    }
+    .nameVerified {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+
+        padding: 1% 0;
+    }
+
+    .nameVerified img {
+
+        align-self: center;
+    }
+}
+
+@media (max-width:1250px) {
+    .imgSmall {
+        
+        gap: 15%;
+    
+    }
+
+    .mainContentImg {
+       
+        gap: 72px;
+    }
+
+    .optionPay {
+        gap: 10px;
+    }
+
+    .coment {
+        gap: 40px;
+    }
+    
+    .optionPay p {
+        font-size: 0.7vw;
+        font-weight: 400;
+    }
+}
+
+@media (max-width:1150px) {
+    .imgSmall {
+        
+        gap: 18%;
+    
+    }
+    .optionPay p {
+        font-size: 0.6vw;
+        font-weight: 400;
+    }
+
+    .comentParrafe p {
+        font-size: 1.2vw;
+       
+    }
+
+    .descriptionTitle h4 {
+        font-size: 1.3vw;
+        
+    }
+
+    .descriptionTitle p {
+        font-size: 1.1vw;
+        font-weight: 600;
+    }
+    .stocks p {
+        font-size: 1.1vw;
+        font-weight: 300;
+    }
+    
+    .descriptionStart p {
+        font-size:  1.1vw;
+        font-weight: 400;
+        line-height: 140%;
+     }
+
+     .checklistImgTxt p {
+        font-size: 1.1vw;
+        font-weight: 300;
+         
+     }
+
+     .containerOfert  p{
+        font-size: 1.1vw;
+        font-weight: 500;
+        color: black;
+    
+        
+    }
+
+    .buttonPay a {
+        color: white;
+        text-transform: uppercase;
+        text-decoration: none;
+        font-size: 1.4vw;
+        font-weight: 700;
+     }
+     
+     .noThank a {
+        font-size: 1.23vw;
+        text-transform: uppercase;
+        color: #F82C2C;
+        font-weight: 500;
+      
+    }
+
+    .guarantee p {
+        font-size: 1.2vw;
+        line-height: 140%;
+        font-weight: 400;
+    
+    }
+   
+}
+
+@media (max-width:1150px) {
+    .imgSmall {
+        
+        gap: 20%;
+    
+    }
+}
+
+@media (max-width:950px) {
+    .mainContentImgObject--a {
+        display: block;
+     }
+
+     .mainContentImg {
+        display: none;
+     }
+     .mainContentDescription {
+        width: 100%;
+     }
+
+     .titleDescription h1{
+        font-size: 4.5vw;
+        text-transform: capitalize;
+        font-weight: 300;
+     }
+     .mainContentImgObject--a {
+     
+        display: flex;
+        justify-content: center;
+     }
+
+     .mainContentImgObject--a img{
+        object-fit: contain;
+        width: 60%;
+        
+     }
+     .imgSmall {
+        gap: 3%;
+    
+    }
+
+    .descriptionTitle h4 {
+        font-size: 1.7vw;
+        font-weight: 600;
+    }
+
+    .stocks p {
+        font-size: 1.5vw;
+        font-weight: 300;
+    }
+
+    .descriptionStart p {
+        font-size:  1.6vw;
+        font-weight: 400;
+        line-height: 140%;
+     }
+
+     .precio {
+        font-size: 1.8vw;
+        color: #2C7EF8;
+        font-weight: 600;
+    }
+    .descuento {
+        font-size: 1.5vw;
+        font-weight: 600;
+        color: #969696;
+        text-decoration: line-through;
+    
+    }
+
+    .checklistImgTxt p {
+        font-size: 1.6vw;
+        font-weight: 300;
+         
+     }
+
+     .containerOfert  p{
+        font-size: 1.6vw;
+        font-weight: 500;
+        color: black;
+    
+        
+    }
+
+    .buttonPay a {
+        color: white;
+        text-transform: uppercase;
+        text-decoration: none;
+        font-size: 1.8vw;
+        font-weight: 700;
+     }
+
+     .optionPay p {
+        font-size: 1.2vw;
+        font-weight: 400;
+    }
+    .iconsPays {
+        width: 30%;
+        justify-content: space-between;
+
+    }
+
+    .noThank a {
+        font-size: 1.8vw;
+        text-transform: uppercase;
+        color: #F82C2C;
+        font-weight: 500;
+      
+    }
+
+    .guarantee p {
+        font-size: 1.6vw;
+        line-height: 140%;
+        font-weight: 400;
+    
+    }
+}
+
+@media (max-width:800px) {
+
+    .mainContentFlex {
+        width: 90%;
+       
+    
+    }
+    
+
+     .titleDescription h1{
+        font-size: 5vw;
+        text-transform: capitalize;
+        font-weight: 300;
+     }
+     .mainContentImgObject--a {
+     
+        display: flex;
+        justify-content: center;
+     }
+
+     .mainContentImgObject--a img{
+        object-fit: contain;
+        width: 80%;
+        
+     }
+     .imgSmall {
+        gap: 6%;
+    
+    }
+
+    .descriptionTitle h4 {
+        font-size: 2vw;
+        font-weight: 600;
+    }
+
+    .stocks p {
+        font-size: 1.8vw;
+        font-weight: 300;
+    }
+
+    .descriptionStart p {
+        font-size:  2vw;
+        font-weight: 400;
+        line-height: 140%;
+     }
+
+     .precio {
+        font-size: 2.1vw;
+        color: #2C7EF8;
+        font-weight: 600;
+    }
+    .descuento {
+        font-size: 1.8vw;
+        font-weight: 600;
+        color: #969696;
+        text-decoration: line-through;
+    
+    }
+
+    .checklistImgTxt p {
+        font-size: 2vw;
+        font-weight: 300;
+         
+     }
+
+     .containerOfert  p{
+        font-size: 2vw;
+        font-weight: 500;
+        color: black;
+    
+        
+    }
+
+    .buttonPay a {
+        color: white;
+        text-transform: uppercase;
+        text-decoration: none;
+        font-size: 2.2vw;
+        font-weight: 700;
+     }
+
+     .optionPay p {
+        font-size: 1.4vw;
+        font-weight: 400;
+    }
+    .iconsPays {
+        width: 30%;
+        justify-content: space-between;
+
+    }
+
+    .noThank a {
+        font-size: 2.2vw;
+        text-transform: uppercase;
+        color: #F82C2C;
+        font-weight: 500;
+      
+    }
+
+    .guarantee p {
+        font-size: 2vw;
+        line-height: 140%;
+        font-weight: 400;
+    
+    }
+    /* .optionPayTitle, .optionPayLock, .iconsPays {
+        width: 30%;
+    } */
+
+    .optionPay {
+
+        gap: 10px;
+      
+    }
+
+}
+
+@media (max-width:700px) {
+    .imgSmall {
+        gap: 10%;
+    
+    }
+
+    .iconsPays img {
+        object-fit: contain;
+        width: 12%;
+    }
+
+   
+}
+
+@media (max-width:600px) {
+    .descriptionStart  {
+        display: none;
+     }
+    
+     .descriptionStart--a  {
+        width: 100%;
+        display: block;
+     }
+    
+
+    .titleDescription h1{
+       font-size: 6vw;
+       text-transform: capitalize;
+       font-weight: 300;
+       text-align: center;
+    }
+    .mainContentImgObject--a {
+    
+       display: flex;
+       justify-content: center;
+    }
+
+    .mainContentImgObject--a img{
+       object-fit: contain;
+       width: 100%;
+       
+    }
+    .imgSmall {
+       gap: 15%;
+   
+   }
+
+   .imgSmallDescription {
+    gap: 15px;
+   }
+
+   .containerDescriptionTitle {
+   
+    padding-right: 2%;
+
+}
+
+   .descriptionTitle h4 {
+       font-size: 2.5vw;
+       font-weight: 600;
+   }
+
+   .stocks p {
+       font-size: 2.3vw;
+       font-weight: 300;
+   }
+
+   .descriptionStart p {
+       font-size:  2.5vw;
+       font-weight: 400;
+       line-height: 140%;
+    }
+
+    .precio {
+       font-size: 2.5vw;
+       color: #2C7EF8;
+       font-weight: 600;
+   }
+   .descuento {
+       font-size: 2.4vw;
+       font-weight: 600;
+       color: #969696;
+       text-decoration: line-through;
+   
+   }
+
+   .checklistImgTxt p {
+       font-size: 2.5vw;
+       font-weight: 300;
+        
+    }
+
+    .containerOfert  p{
+       font-size: 2.5vw;
+       font-weight: 500;
+       color: black;
+   
+       
+   }
+
+   .buttonPay a {
+       color: white;
+       text-transform: uppercase;
+       text-decoration: none;
+       font-size: 2.8vw;
+       font-weight: 700;
+    }
+
+    .optionPay p {
+       font-size: 1.7vw;
+       font-weight: 400;
+   }
+   .iconsPays {
+       width: 30%;
+       justify-content: space-between;
+
+   }
+
+   .noThank a {
+       font-size: 2.8vw;
+       text-transform: uppercase;
+       color: #F82C2C;
+       font-weight: 500;
+     
+   }
+
+   .guarantee p {
+       font-size: 2.5vw;
+       line-height: 140%;
+       font-weight: 400;
+   
+   }
+}
+
+
+@media (max-width:500px) {
+    
+
+    .titleDescription h1{
+       font-size: 6.5vw;
+       text-transform: capitalize;
+       font-weight: 300;
+       text-align: center;
+    }
+    .mainContentImgObject--a {
+    
+       display: flex;
+       justify-content: center;
+    }
+
+    .mainContentImgObject--a img{
+       object-fit: contain;
+       width: 100%;
+       
+    }
+    .imgSmall {
+       gap: 18%;
+   
+   }
+
+   .imgSmallDescription {
+    gap: 15px;
+   }
+
+   .containerDescriptionTitle {
+   
+    padding-right: 2%;
+
+}
+
+   .descriptionTitle h4 {
+       font-size: 3vw;
+       font-weight: 600;
+   }
+
+   .stocks p {
+       font-size: 2.8vw;
+       font-weight: 300;
+   }
+
+   .descriptionStart p {
+       font-size:  2.8vw;
+       font-weight: 400;
+       line-height: 140%;
+       text-align: center;
+    }
+
+    .precio {
+       font-size: 3vw;
+       color: #2C7EF8;
+       font-weight: 600;
+   }
+   .descuento {
+       font-size: 2.7vw;
+       font-weight: 600;
+       color: #969696;
+       text-decoration: line-through;
+   
+   }
+
+   .checklistImgTxt p {
+       font-size: 3vw;
+       font-weight: 300;
+        
+    }
+
+    .containerOfert  p{
+       font-size: 2.9vw;
+       font-weight: 500;
+       color: black;
+   
+       
+   }
+
+   .buttonPay a {
+       color: white;
+       text-transform: uppercase;
+       text-decoration: none;
+       font-size: 3.2vw;
+       font-weight: 700;
+    }
+
+    .optionPay p {
+       font-size: 2.9vw;
+       font-weight: 400;
+   }
+   .iconsPays {
+       width: 30%;
+       justify-content: space-between;
+
+   }
+
+   .noThank a {
+       font-size: 3.5vw;
+       text-transform: uppercase;
+       color: #F82C2C;
+       font-weight: 500;
+     
+   }
+
+   .guarantee p {
+       font-size: 2.8vw;
+       line-height: 140%;
+       font-weight: 400;
+   
+   }
+
+   .optionPay {
+    flex-wrap: wrap;
+   }
+
+   .optionPayTitle {
+    display: flex;
+    justify-content: center;
+    width: 30%;
+
+   }
+   
+   .optionPayLock {
+    display: flex;
+    justify-content: center;
+    width: 60%;
+
+   }
+   
+   .iconsPays {
+    margin-left: 4%;
+    padding: 3% 0;
+    width: 88%;
+    gap: 0px;
+    border-top: 1px solid #cfcfcf;
+    justify-content: center;
+
+}
+
+.separador--a {
+    display: none;
+}
+
+.iconsPays img {
+    object-fit: cover;
+    width: 24px;
+    height: 14px;
+}
+
+.optionPay {
+    justify-content:left;
+    padding: 1% 0;
+}
+
+
+}
+
+
+@media (max-width:450px) {
+
+     .imgSmall {
+       gap: 10%;
+   
+   }
+
+   .mainContentImgObject--a {
+    display: none;
+   }
+
+   .containerImgSmall img {
+    width: 100px;
+    height: 100px;
+   }
+
+   .imgSmallDescription {
+    gap: 12px;
+   }
+
+
+   .titleDescription h1{
+    font-size: 6.6vw;
+    text-transform: capitalize;
+    font-weight: 300;
+    text-align: center;
+ }
+
+
+
+
+
+
+.containerDescriptionTitle {
+
+ padding-right: 2%;
+
+}
+
+.descriptionTitle h4 {
+    font-size: 3.5vw;
+    font-weight: 600;
+}
+
+.stocks p {
+    font-size: 3.2vw;
+    font-weight: 300;
+}
+
+.descriptionStart p {
+    font-size:  3.2vw;
+    font-weight: 400;
+    line-height: 140%;
+    text-align: center;
+ }
+
+ .precio {
+    font-size: 3.4vw;
+    color: #2C7EF8;
+    font-weight: 600;
+}
+.descuento {
+    font-size: 3vw;
+    font-weight: 600;
+    color: #969696;
+    text-decoration: line-through;
+
+}
+
+.checklistImgTxt p {
+    font-size: 3.4vw;
+    font-weight: 300;
+     
+ }
+
+ .containerOfert  p{
+    font-size: 4.2vw;
+    font-weight: 500;
+    color: black;
+
+    
+}
+
+.buttonPay a {
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 4.2vw;
+    font-weight: 700;
+ }
+
+ .optionPay p {
+    font-size: 2.9vw;
+    font-weight: 400;
+}
+.iconsPays {
+    width: 30%;
+    justify-content: space-between;
+
+}
+
+.noThank a {
+    font-size: 4vw;
+    text-transform: uppercase;
+    color: #F82C2C;
+    font-weight: 500;
+  
+}
+
+.guarantee p {
+    font-size: 3.1vw;
+    line-height: 140%;
+    font-weight: 400;
+
+}
+
+.optionPay {
+ flex-wrap: wrap;
+}
+
+.optionPayTitle {
+ display: flex;
+ justify-content: center;
+ width: 30%;
+
+}
+
+.optionPayLock {
+ display: flex;
+ justify-content: center;
+ width: 60%;
+
+}
+
+.iconsPays {
+ margin-left: 4%;
+ padding: 3% 0;
+ width: 88%;
+ gap: 0px;
+ border-top: 1px solid #cfcfcf;
+ justify-content: center;
+
+}
+
+.separador--a {
+ display: none;
+}
+
+.iconsPays img {
+ object-fit: cover;
+ width: 24px;
+ height: 14px;
+}
+
+.optionPay {
+ justify-content:left;
+ padding: 1% 0;
+}
+
+}
+
+@media (max-width:420px) {
+    .imgSmall {
+        gap: 15%;
+    
+    }
+
+    .containerOfert  p{
+        font-size: 4vw;
+        font-weight: 500;
+        color: black;
+    
+        
+    }
+}
+
+/*FOOTER*/
+
+@media (max-width:1100px) {
+    .copyright {
+        display: flex;
+        align-items: center;
+        font-size: 1.3vw;
+        font-weight: 400;
+        color: #ffffff;
+        gap: 16px;
+    }
+    
+   
+    
+    .secure {
+    
+        display: flex;
+        align-items: center;
+        gap: 16px;
+        color: #ffffff;
+        font-size: 1.3vw;
+        font-weight: 400;
+    
+    }
+    
+}
+
+@media (max-width:900px) {
+    .copyright {
+        display: flex;
+        align-items: center;
+        font-size: 1.5vw;
+        font-weight: 400;
+        color: #ffffff;
+        gap: 16px;
+    }
+    
+   
+    
+    .secure {
+    
+        display: flex;
+        align-items: center;
+        gap: 16px;
+        color: #ffffff;
+        font-size: 1.5vw;
+        font-weight: 400;
+    
+    }
+    
+}
+
+@media (max-width:750px) {
+    .copyright {
+        display: flex;
+        align-items: center;
+        font-size: 1.7vw;
+        font-weight: 400;
+        color: #ffffff;
+        gap: 16px;
+    }
+    
+   
+    
+    .secure {
+    
+        display: flex;
+        align-items: center;
+        gap: 16px;
+        color: #ffffff;
+        font-size: 1.7vw;
+        font-weight: 400;
+    
+    }
+    
+}
+
+@media (max-width:600px) {
+    .footer {
+        width: 100%;
+        background-color: #252f3d;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 3% 8.6%;
+    }
+
+    .copyright {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 2.8vw;
+        font-weight: 400;
+        color: #ffffff;
+        gap: 16px;
+
+    }
+    
+   
+    
+    .secure {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 16px;
+        color: #ffffff;
+        font-size: 2.8vw;
+        font-weight: 400;
+        margin-top: 20px;
+
+    
+    }
+
+    .separadores {
+        width: 1px;
+        height: 20px;
+        background-color: #ffffff;
+    }
+    
+}
+
+@media (max-width:500px) {
+    .footer {
+        width: 100%;
+        background-color: #252f3d;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 3% 8.6%;
+    }
+
+    .copyright {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size:3vw;
+        font-weight: 400;
+        color: #ffffff;
+        gap: 16px;
+
+    }
+    
+   
+    
+    .secure {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 16px;
+        color: #ffffff;
+        font-size: 3vw;
+        font-weight: 400;
+        margin-top: 20px;
+
+    
+    }
+
+    .separadores {
+        width: 1px;
+        height: 20px;
+        background-color: #ffffff;
+    }
+    
+}

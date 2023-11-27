@@ -1,0 +1,559 @@
+/*General Style*/
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Manrope", sans-serif;
+  box-sizing: border-box;
+}
+
+
+/*Header blue top */
+
+.icons {
+  width: 100%;
+  padding: 1% 0;
+  background-color: #252f3d;
+ 
+}
+
+.iconss {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.navResponsive {
+    display: none;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.navResponsiveAnimate {
+ 
+    width: 35%;
+    overflow: hidden;
+
+  
+
+}
+
+.navResponsiveAnimate ul {
+    width: 400%;
+    display: flex;
+    padding: 0;
+    
+    color: #ffffff;
+    animation: animate 15s infinite ease-in-out;
+
+}
+
+
+
+.iconsFlex {
+    width: 25%;
+    display: flex;
+   justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-size: 1.1vw;
+}
+
+@keyframes animate {
+    0% {
+        margin-left: 0%;
+    }
+
+    20% {
+        margin-left: 0%;
+    }
+
+    25% {
+        margin-left: -100%;
+    }
+
+    45% {
+        margin-left: -100%;
+    }
+
+    50% {
+        margin-left: -200%;
+    }
+
+    70% {
+        margin-left: -200%;
+    }
+
+    75% {
+        margin-left: -300%;
+    }
+
+    95% {
+        margin-left: -300%;
+    }
+}
+
+.containIconsLink {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.containIconsLink img {
+    width: 22px;
+    height: 22px;
+  }
+
+.containIconsLink p {
+  color: #ffffff;
+  font-size: 12px;
+}
+
+/*Header Logos*/
+.logo {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 3% 8% 3% 8.6%;
+    gap: 20%;
+  
+}
+/* 
+.clarifon {
+    width: 192px;
+    height: 36px;
+} */
+
+.logosMcNorton {
+    display: flex;
+    gap: 32px;
+    align-items: center;
+    
+}
+
+/* .mc{
+    width: 88px;
+    height: 32px;
+} */
+
+/* .norton {
+    width: 82px;
+    height: 32px;
+} */
+
+/*Title Text*/
+
+.firstTxt {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.firstTxt h1 {
+    font-size: 48px;
+    font-weight:400;
+    text-transform: capitalize;
+}
+
+.firstTxt p {
+    font-size: 24px;
+    font-weight:200;
+    text-transform: capitalize;
+}
+
+/*Steps*/
+.steps {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 3.5% 8% 3.5% 8.9%;
+    
+}
+
+.stepsIconsTxt {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+
+
+
+.stepsIconsTxt p {
+   font-size: 1.1vw;
+
+   font-weight: 500;
+}
+
+/*Main Content*/
+.mainContent {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 2% 0 5% 0;
+}
+
+.mainContentFlex {
+    width: 80%;
+    display: flex;
+    align-items: center;
+
+    gap: 40px;
+
+}
+
+
+.mainContentImg {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.mainContentImgObject {
+    width: 100%;
+}
+
+.mainContentImgObject--a {
+   display: none;
+}
+.mainContentImgObject img {
+    object-fit: cover;
+    width: 100%;
+}
+
+.mainContentDescription {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.titleDescription {
+    width: 100%;
+}
+
+.titleDescription h1{
+   font-size: 2.3vw;
+   text-transform: capitalize;
+   font-weight: 300;
+}
+
+.spanBlue {
+    color: #2C7EF8;
+}
+
+.imgSmall {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 34px;
+
+}
+.containerImgSmall {
+    width: 20%;
+
+}
+
+.imgSmallDescription {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.containerDescriptionTitle {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.descriptionPrice {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.descriptionTitle h4 {
+    font-size: 1.25vw;
+    font-weight: 600;
+}
+
+.descuento {
+    font-size: 1vw;
+    font-weight: 600;
+    color: #969696;
+    text-decoration: line-through;
+
+}
+
+.precio {
+    font-size: 1.38vw;
+    color: #2C7EF8;
+    font-weight: 600;
+}
+
+.stocks {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    
+}
+
+.stocks p {
+    font-size: 1vw;
+    font-weight: 300;
+}
+
+.descriptionStart  {
+    width: 100%;
+ }
+
+ .descriptionStart--a  {
+    width: 100%;
+    display: none;
+ }
+
+.descriptionStart p {
+   font-size:  1vw;
+   font-weight: 400;
+   line-height: 140%;
+}
+
+.checklist {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.checklistImgTxt {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+
+}
+
+.checklistImgTxt p {
+   font-size: 1vw;
+   font-weight: 300;
+    
+}
+
+.containerOfert {
+    width: 100%;
+    background-color: #EDF3FD;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding: 2.5% 2.5%;
+
+}
+
+.containerOfert  p{
+    font-size: 1vw;
+    font-weight: 500;
+    color: black;
+
+    
+}
+
+.containerPay {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.containerPaySmall {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.containerButtonPay {
+    width: 100%;
+    background-color: #59AE43;
+    border-radius: 50px;
+    padding: 3% 0;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.buttonPay {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 19.76px;
+}
+
+.buttonPay a {
+   color: white;
+   text-transform: uppercase;
+   text-decoration: none;
+   font-size: 1.25vw;
+   font-weight: 700;
+}
+
+.arrows {
+    transition: 1s;
+}
+
+.containerButtonPay:hover .arrows {
+    translate: 70%;
+    transition: 1s;
+    transform: scale(120%);
+   
+}
+
+.optionPay {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+    border: 1px solid #CFCFCF;
+    border-radius: 4px;
+    padding: 1.3% 2%;
+}
+
+.optionPayLock {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.optionPay p {
+    font-size: 0.75vw;
+    font-weight: 400;
+}
+
+.separador {
+    width: 2px;
+    height: 16px;
+    background-color: #CFCFCF;
+}
+
+.iconsPays {
+    display: flex;
+    gap: 2px;
+}
+
+.noThank {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.noThank a {
+    font-size: 1.13vw;
+    text-transform: uppercase;
+    color: #F82C2C;
+    font-weight: 500;
+  
+}
+
+.guarantee {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.guarantee p {
+    font-size: 1vw;
+    line-height: 140%;
+    font-weight: 400;
+
+}
+
+.coment {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    padding: 2% 2%;
+}
+
+.imgComent { 
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 13px;
+}
+
+.containerStartName {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.containerStartName img {
+    align-self: flex-start;
+}
+
+.nameVerified {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
+
+.comentParrafe {
+    width: 100%;
+}
+
+.comentParrafe p {
+    font-size: 1vw;
+    font-weight: 400;
+    line-height: 140%;
+}
+
+/*Footer*/
+.footer {
+    width: 100%;
+    background-color: #252f3d;
+    display: flex;
+    justify-content: space-between;
+    padding: 2% 8.6%;
+}
+
+.copyright {
+    display: flex;
+    align-items: center;
+    font-size: 1vw;
+    font-weight: 400;
+    color: #ffffff;
+    gap: 16px;
+}
+
+.separadores {
+    width: 1px;
+    height: 24px;
+    background-color: #ffffff;
+}
+
+.secure {
+
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    color: #ffffff;
+    font-size: 1vw;
+    font-weight: 400;
+
+}
+
+
